@@ -1,0 +1,54 @@
+:root{
+
+  /*===== space setting =====*/
+  --space-larger : 64px;
+  --space-large : 48px;
+  --space-normal : 32px;
+  --space-small : 16px;
+  --space-smaller : 8px;
+
+
+
+  /*===== font weight setting =====*/
+  --font-weight-lighter : 100;
+  --font-weight-light : 300;
+  --font-weight-normal : 500;
+  --font-weight-bold : 700;
+  --font-weight-bolder : 900;
+
+  /*===== font size setting =====*/
+  --font-size-larger : 40px;
+  --font-size-large : 32px;
+  --font-size-normal : 24px;
+  --font-size-small : 16px;
+  --font-size-smaller: 8px;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: NanumSquareRoundOTF;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: none;
+}
+
+input[type="button"] {
+  border : 0;
+  outline : 0;
+  background: none;
+}
