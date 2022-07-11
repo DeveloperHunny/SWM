@@ -1,35 +1,16 @@
-:root{
-
-  /*===== space setting =====*/
-  --space-larger : 64px;
-  --space-large : 48px;
-  --space-normal : 32px;
-  --space-small : 16px;
-  --space-smaller : 8px;
-
-
-
-  /*===== font weight setting =====*/
-  --font-weight-lighter : 100;
-  --font-weight-light : 300;
-  --font-weight-normal : 500;
-  --font-weight-bold : 700;
-  --font-weight-bolder : 900;
-
-  /*===== font size setting =====*/
-  --font-size-larger : 40px;
-  --font-size-large : 32px;
-  --font-size-normal : 24px;
-  --font-size-small : 16px;
-  --font-size-smaller: 8px;
+@font-face {
+  font-family: NanumSquareRound;
+  src: url("/fonts/NanumSquareRoundB.ttf");
+  font-style: normal;
+  font-weight: normal;
 }
-
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: NanumSquareRoundOTF;
+  font-family: NanumSquareRound,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
 }
 
 a {
@@ -39,16 +20,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-button {
-  border: 0;
-  outline: 0;
-  background: none;
-}
-
-input[type="button"] {
-  border : 0;
-  outline : 0;
-  background: none;
 }

@@ -1,12 +1,18 @@
-import React from "react";
-import type { NextPage } from "next";
+import React, { Component, FC, ReactElement } from "react";
+import {
+	Box,
+	Button,
+	Flex,
+	Grid,
+	Slide,
+	SlideFade,
+	Text,
+	useDisclosure,
+} from "@chakra-ui/react";
+import { NextPage } from "next";
 
-const Test: NextPage = () => {
-	return (
-		<>
-			<h1 className={"font-bolder"}>THIS IS TEST PAGE</h1>
-		</>
-	);
+const TestPage: NextPage = () => {
+	return <Box w="100%" h="100vh"></Box>;
 };
 
-export default Test;
+export default TestPage;
